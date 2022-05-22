@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8662548059758108053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8662548059758108052}
+  - component: {fileID: 5138118959222810331}
+  - component: {fileID: 182242649167760057}
+  - component: {fileID: 1463760906197309182}
+  - component: {fileID: 2888619246921547051}
+  m_Layer: 0
+  m_Name: Hatch
+  m_TagString: Hatch
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8662548059758108052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8662548059758108053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.3999999, y: 2.3999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &5138118959222810331
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8662548059758108053}
+  m_Enabled: 1
+  m_Density: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.4, y: -1.1}
+  m_EdgeRadius: 0.1
+  m_Points:
+  - {x: -6.280395, y: 0.15418363}
+  - {x: 6.923651, y: 0.1957869}
+--- !u!114 &182242649167760057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8662548059758108053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b628df3eb9b00c44db567e28543bbef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hatchCollider: {fileID: 0}
+--- !u!114 &1463760906197309182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8662548059758108053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd96f140798a2a54a82500cf870a3af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCounter: 0
+--- !u!114 &2888619246921547051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8662548059758108053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2979df528092c0f43ab4b1f1ad425534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  CowValue: 5
+  RedneckValue: 7
+  scoreText: {fileID: 0}
+  deathMenu: {fileID: 0}
+  scoreDecreaser: 0.2
+  enemyplane: {fileID: 0}
+  PointsToGiveplayer: 0
+  TextToShowCow: 5
+  TextToShowRedneck: 7
+  spawners: {fileID: 0}
+  planes: {fileID: 0}
+  mobs: {fileID: 0}
+  sun: {fileID: 0}
+  sunMovement: {fileID: 0}
+  MobSound: {fileID: 0}
+  MobSFX: {fileID: 0}
